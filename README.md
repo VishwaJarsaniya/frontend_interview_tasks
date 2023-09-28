@@ -18,6 +18,9 @@
 ![Screenshot (1816)](https://github.com/VishwaJarsaniya/frontend/assets/143692465/96e03ddc-901d-492f-8f87-cd13a9a188da)
 
 
+
+
+
 #GDSC
 
 ![Screenshot (1790)](https://github.com/VishwaJarsaniya/frontend/assets/143692465/39130bfd-015d-4740-8c67-570a666a0fcc)
@@ -28,11 +31,18 @@
 ![Screenshot (1795)](https://github.com/VishwaJarsaniya/frontend/assets/143692465/988ebd0d-5045-408f-aadf-263cf740a90b)
 
 
+
+
+
 #SYNAPSE REACT
 
 ![ss1](https://github.com/VishwaJarsaniya/frontend/assets/143692465/7ce371bb-84f7-4a5f-9579-f0349a2fc22b)
 ![ss2](https://github.com/VishwaJarsaniya/frontend/assets/143692465/898fa6c4-f34d-46ed-a9ab-527bb6a18ef3)
 ![ss3](https://github.com/VishwaJarsaniya/frontend/assets/143692465/f05d23a4-c800-47e5-a691-ae730eeb0c25)
+
+
+
+
 
 
 #SYNAPSE
