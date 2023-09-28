@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Welcome Page*/
+
+body{
+    background-image: url(pics/image.png);
+    background-size:cover;
+}
+
+.topbar h2{
+   font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    padding-top: 10px;
+     padding-bottom: 25px;
+    padding-right: 40px;
+    margin-left: 50px;
+}
+
+.topbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.slogan h3{
+    font-size: 67px;
+    padding-top: 110px;
+    color: whitesmoke;
+    display: flex;
+  font-family: 'Lobster', cursive;
+    font-weight: 100;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    cursor: pointer;
+    padding: 30px 50px;
+    font-size: 33px;
+    font-weight: 200;
+    border: none;
+    background-color: transparent;
+    font-family:monospace;
+
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a p{
+     color: whitesmoke;
+    font-size: 15px;
+   font-family: 'Play', sans-serif;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+ul li ul.drop-down{
+    width: 100%;
+    z-index: 999;
+    display: none;
+    position: absolute;
+}
+
+ul li a:hover{
+    background-color: black;
+}
+
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+/* LOGIN_PAGE*/
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('pics/back.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;    
+    color: #ffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+.wrapper h1{
+    font-size: 45px;
+    text-align:center;
+    color: white;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;;
+    margin: 30px 0;
+    background: transparent;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    color:white;
+    padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:#ffff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+.mssg{
+    display: inherit;
+    justify-content:space-around;
+    font-size: 17px;
+    margin: -20px 0 30px;
+    
+}
+
+.mssg label input{
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mssg a{
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.mssg a:hover{
+    text-decoration: underline;
+}
+
+.mssg button{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*MOVIES.HTML*/
+
+#movie-page{
+    background-color: #0A0A0A;
+}
+
+.bar{
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo h2{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+}
+
+.search-bar{
+    margin-left: 380px;
+    margin-right: 50px;
+    width: 100%;
+    height:40px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    outline: none;
+}
+
+.search-bar input{
+    font-size: 20px;
+    color:white;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}
+.search-bar input:placeholder-shown{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+
+/*slider*/
+
+.slider-wrapper{
+    position: relative;
+    max-width: 100%;
+    margin: 30px 80px 0 80px;
+}
+
+.slider{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.slider-nav{
+    display: flex;
+    position: absolute;
+    bottom: 1.5rem;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    column-gap: 16px;;
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 55px;
+    height: 3px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+ h2{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     margin-left: 80px;
+     font-size: 40px;
+     color: white;
+     font-family: 'Prompt', sans-serif;
+}
+
+.movies .container-1{
+    display: flex;
+    margin-left: 50px;
+}
+
+.movies .container-2{
+    display: flex;
+    margin-left: 50px;
+} 
+
+.movies .container-3 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.movies .container-4 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.movies .container-1 img{
+    border-radius: 30px;
+    border-width: medium;
+    border-color: white;
+    margin-right: 45px;
+    height: 300px;
+    width: 300px;
+}
+
+.movies .container-2 img{
+    border-radius: 30px;
+    border-width: medium;
+    border-color: white;
+    margin-right: 45px;
+    height: 300px;
+    width: 300px;
+}
+
+.movies .container-3 img{
+    border-radius: 30px;
+    border-width: medium;
+    border-color: white;
+    margin-right: 45px;
+    height: 300px;
+    width: 300px;
+}
+
+.movies .container-4 img{
+    border-radius: 30px;
+    border-width: medium;
+    border-color: white;
+    margin-right: 45px;
+    height: 300px;
+    width: 300px;
+}
+
+.button-cont-1 {
+   display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  
+}
+
+.button-cont-1 button{
+    width: 250px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-cont-1 button:hover {
+    background-color: #B90E0A;
+}
+
+.button-cont-2 {
+   display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  
+}
+
+.button-cont-2 button{
+    width: 250px;
+    height: 50px;
+   background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-cont-1 button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button-cont-2 button:hover {
+    background-color: #B90E0A;
+}
+
+.button-cont-3 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  
+}
+
+.button-cont-3 button{
+    width: 250px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-cont-3 button:hover {
+    background-color: #B90E0A;
+}
+
+.button-cont-4 {
+   display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  
+}
+
+.button-cont-4 button{
+    width: 250px;
+    height: 50px;
+     background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-cont-4 button:hover {
+    background-color: #B90E0A;
+}
+
+
+.footer {
+    display: flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: #181818;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer .logo h2{
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+h4{
+    font-size: 30px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+   font-family: 'Lato', sans-serif;
+}
+
+.links a {
+   padding-top: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.follow img{
+    height: 50px;
+    width: 50px;
+}
