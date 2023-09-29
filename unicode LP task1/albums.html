@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALBUMS</title>
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>  .back {
+    background: rgb(94,38,168);
+    background: linear-gradient(90deg, rgba(94,38,168,1) 20%, rgba(48,85,191,1) 81%);
+    background-size: cover;
+    padding: 100px 250px;
+  }
+  .action-button {
+      border-color: white;
+      border-radius: 12px;
+      width: 80px;
+      border-width: 2px;
+      background-color: #3BB143;
+    }
+   </style>
+  </head>
+<body>
+    <div class="back">
+        <div class="border-white border-2 p-8 rounded-3xl">
+        <img src="images/gallery.png" class="w-32 h-32 mx-96">
+        <h1 class="text-white text-4xl flex place-content-center py-5">ALBUMS</h1>
+        <table class="table-auto text-white px-5 py-8 text-lg">
+          <thead>
+          <tr>
+            <th class="px-5 py-5 w-24">ID</th>
+            <th class="px-5 py-5 w-150">TITLE</th>
+            <th class="pr-1 py-5 w-36">PHOTOS</th>
+          </tr>
+        </thead>
+        <tbody id="albumTableBody">
+    
+        </tbody>
+        </table>
+      </div>
+      </div>
+    <script src="scriptfinal.js"></script>
+</body>
+</html>
